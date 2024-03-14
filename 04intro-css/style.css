@@ -1,0 +1,99 @@
+body {	margin: 0;
+	background-color: #bfbfbf;
+}
+	.black-ops {
+		font-family: "Black Ops One", system-ui;
+		font-weight: 400;
+		font-style: normal;
+	}
+	.source-sans {
+		font-family: "Source Sans 3", sans-serif;
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
+
+/* Header  */
+header {
+	background-color: #1b1a1a;
+	padding: 1rem 1%;
+}
+header h1 {
+	margin: 0;
+	color: #04D94F;
+}
+header p {
+	margin: 0;
+	color: #04D94F;
+	letter-spacing: .5px;
+}
+/* nav  */
+nav {
+	background-color: #404040;
+}
+nav ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0 2vw;
+	margin: 0;
+}
+nav ul li a {
+	font-size: 1.1rem;
+	font-weight: 700;
+	text-decoration: none;
+	color: #04bf68;
+	display: block;
+	padding: 0.73rem 2rem;
+	
+}
+nav li.active a {
+	background-color: #737373;
+	color: #04d94f;
+}
+nav a:hover {
+	color: #038c5a;
+}
+/* Main */
+main {
+	padding: 0rem 1vw;
+}
+main h1 {
+	color: #04bf68;
+	background-color: #404040;
+	padding: 0rem 3rem 0rem;
+	width: 17.6rem;
+	margin-left: -1vw;
+	margin-top: -0vw
+}
+main dl {
+	padding: .5rem;
+	width: 12.5rem;
+	border: 2px solid #404040;
+	border-radius: .3rem;
+	background-color: #9e9e9e;
+}
+main dl dt {
+	color:#0367A6
+}
+main h2 {
+	color: #404040;
+}
+main h3 {
+	color:#1B402E;
+}
+main a {
+	color:#0367A6;
+}
+main p {
+	font-weight: 200;
+}
+/* footer */
+footer {
+	background-color: #1b1a1a;
+	color: #04bf68;
+	padding: 0rem 0rem 4rem;
+	text-align: center;
+}
+footer a {
+	color: #04bf68;
+}
