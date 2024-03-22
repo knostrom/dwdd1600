@@ -1,16 +1,17 @@
-body {	margin: 0;
+body {
+	margin: 0;
 	background-color: #bfbfbf;
 }
-	.black-ops {
-		font-family: "Black Ops One", system-ui;
-		font-weight: 400;
-		font-style: normal;
-	}
-	.source-sans {
-		font-family: "Source Sans 3", sans-serif;
-		font-weight: 400;
-		font-style: normal;
-	}
+.black-ops {
+	font-family: "Black Ops One", system-ui;
+	font-weight: 400;
+	font-style: normal;
+}
+.source-sans {
+	font-family: "Source Sans 3", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
 
 /* Header  */
 header {
@@ -19,16 +20,17 @@ header {
 }
 header h1 {
 	margin: 0;
-	color: #04D94F;
+	color: #04d94f;
 }
 header p {
 	margin: 0;
-	color: #04D94F;
-	letter-spacing: .5px;
+	color: #04d94f;
+	letter-spacing: 0.5px;
 }
 /* nav  */
 nav {
 	background-color: #1b1a1a;
+	height: 48px;
 }
 nav ul {
 	list-style-type: none;
@@ -43,10 +45,9 @@ nav ul li a {
 	color: #04bf68;
 	display: block;
 	padding: 0.73rem 2rem;
-	
 }
 nav li.active a {
-	background-color: #04BF68;
+	background-color: #04bf68;
 	color: #1b1a1a;
 }
 nav a:hover {
@@ -62,26 +63,26 @@ main h1 {
 	padding: 0rem 3rem 0rem;
 	width: 17.6rem;
 	margin-left: -1vw;
-	margin-top: -0vw
+	margin-top: -0vw;
 }
 main dl {
-	padding: .5rem;
+	padding: 0.5rem;
 	width: 12.5rem;
 	border: 2px solid #404040;
-	border-radius: .3rem;
-	background-color: #BFBFBF;
+	border-radius: 0.3rem;
+	background-color: #bfbfbf;
 }
 main dl dt {
-	color:#1B402E;
+	color: #1b402e;
 }
 main h2 {
-	color:#1B402E;
+	color: #1b402e;
 }
 main h3 {
-	color:#1B402E;
+	color: #1b402e;
 }
 main a {
-	color:#404040;
+	color: #404040;
 }
 main p {
 	font-weight: 200;
@@ -89,10 +90,10 @@ main p {
 /* footer */
 footer {
 	background-color: #1b1a1a;
-	color: #04D94F;
+	color: #04d94f;
 	padding: 0rem 0rem 4rem;
 	text-align: center;
 }
 footer a {
-	color: #04D94F;
+	color: #04d94f;
 }
