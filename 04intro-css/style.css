@@ -47,7 +47,7 @@ nav ul li a {
 }
 nav li.active a {
 	background-color: #04BF68;
-	color: #404040;
+	color: #1b1a1a;
 }
 nav a:hover {
 	color: #038c5a;
@@ -69,7 +69,7 @@ main dl {
 	width: 12.5rem;
 	border: 2px solid #404040;
 	border-radius: .3rem;
-	background-color: #9e9e9e;
+	background-color: #BFBFBF;
 }
 main dl dt {
 	color:#1B402E;
