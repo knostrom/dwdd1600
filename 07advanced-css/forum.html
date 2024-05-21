@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>GameLibrary: Home</title>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Kesten Nostrom" />
+		<meta name="description" content="A Gamers Resource" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="style.css" />
+		<!-- google font stuff -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,500;1,500&display=swap"rel="stylesheet" />	
+	</head>
+	<body>
+		<!--start of the page's header-->
+		<header>
+			<h1 class="black-ops">GameLibrary</h1>
+			<p class="black-ops">A Gamers Ultimate Resource</p>
+		</header>
+		<!--start of the page's navigation-->
+		<nav class="source-sans">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="games.html">Games</a></li>
+				<li><a href="guides.html">Guides</a></li>
+				<li class="active"><a href="forum.html">Forum</a></li>
+			</ul>
+		</nav>
+		<!--start of the page's content-->
+		<main class="source-sans">
+			<h1>Forum</h1>
+			<p>Create a forum page on our website so you can discuss a certain topic, get help on a game, or just simply chat with others.</p>
+			<form action="thanks.html" method="get" class="theForum">
+
+				<fieldset>
+					<legend>Main Information</legend>
+					<label>Your Username*<input type="text" name="username" required></label>
+					<label>Title of your forum*<input type="text" name="title" required></label>
+					<label>Email (we will email you when someone comments on your fourm, not required)<input type="email" name="email"></label>
+					<label>Phone number (same as email but as a text message)<input type="tel" name="phone"></label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Genre of video game?*</legend>
+					<label><input type="radio" name="genre" value="rpg" required>RPG</label>
+					<label><input type="radio" name="genre" value="mmo" required>MMO</label>
+					<label><input type="radio" name="genre" value="fps" required>FPS</label>
+					<label><input type="radio" name="genre" value="none" required>No Genre</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Forum Tags (optional)</legend>
+					<label><input type="checkbox" name="help" value="tagged">Help</label>
+					<label><input type="checkbox" name="chat" value="tagged">Chat</label>
+					<label><input type="checkbox" name="discussion" value="tagged">Discussion</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Other Information</legend>
+					<label>Who has Access to this forum?<select name="access">
+						<option value="nil">Please select</option>
+						<option value="public">Anyone</option>
+						<option value="invite">Invited Only</option>
+					</select></label>
+					<label>Description of this forum (text below the title, not required)<textarea name="description" placeholder="Type a description of what this forum is about"></textarea></label>
+				</fieldset>
+
+			<input type="submit" value="Upload Forum">
+			</form>
+		</main>
+		<!--start of the page's footer-->
+		<footer class="source-sans">
+			<p>
+				&copy; 2024 &bull; Kesten Nostrom &bull;
+				<a href="mailto:kn043817@stu.provo.edu">Email Us</a>
+			</p>
+		</footer>
+	</body>
+</html>
